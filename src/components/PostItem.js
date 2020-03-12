@@ -17,9 +17,9 @@ function PostItem({ post }) {
             <hr/>
             <div className="post-content">
             <img  className="img" src={n}></img>
-                <div className="post-header bg-gray">
-                    <div className="post-items">Júlio Alcantra</div>
-                    <div className="font-thing">04 Jun 2019</div>
+                <div className="bg-gray">
+                    <span>Júlio Alcantra</span>
+                    <p>Top cara, tem vagas sim</p>
                 </div>
             </div>
            
