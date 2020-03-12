@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 hr {
     border-top: 1px solid #ddd;
     margin: 20px 0px;
@@ -17,40 +18,48 @@ hr {
 
 .post {
     max-width: 700px;
-    padding: 5px; margin: 20px auto 0;
+    padding: 5px;
+    margin: 20px auto 0;
     padding: 0 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    -webkit-box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
-box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 3px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 3px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 3px 16px 0px rgba(0, 0, 0, 0.75);
 }
+
 .post .post-title {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
 }
-.bg-gray{
+
+.bg-gray {
     background-color: #1E90FF;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
+
 .post-content {
     display: flex;
     justify-content: start;
     align-items: center;
-
 }
+
 .font-thing {
     font-size: 0.875rem;
     font-weight: 100i;
     color: #ddd
 }
+
 .font-regular {
     font-size: 1rem;
-
     font-weight: 300;
     color: black;
 }
-.img-div{
+
+.img-div {
     width: 50px;
     display: flex;
 }
@@ -59,11 +68,10 @@ box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
     margin-left: 100px;
     margin-top: 0;
     color: red;
-    /* position: relative; */
     float: left;
 }
 
-.post-title span{
+.post-title span {
     margin-left: 100px;
     margin-top: 0;
     color: blue;
@@ -85,23 +93,24 @@ box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
     justify-content: space-between;
     align-items: center;
 }
-#main-header p{
+
+#main-header p {
     margin-left: 20px;
     margin-right: 20px;
 }
-.meu-perfil{
+
+.meu-perfil {
     display: flex;
     align-items: stretch;
     align-content: stretch;
 }
 
 .meu-perfil .meu-perfil-item {
-   padding: 20px 5px;
-   cursor: pointer;
-   margin: 0 5px;
+    padding: 20px 5px;
+    cursor: pointer;
+    margin: 0 5px;
 }
-.meu-perfil .meu-perfil-item:hover{
+
+.meu-perfil .meu-perfil-item:hover {
     background-color: blue;
 }
-
-
