@@ -1,13 +1,28 @@
 import React from 'react';
 import n from '../assets/nao.png';
 
+import Comment from './Comment';
+
 function PostItem({ post }) {
     return (
-        <div>
-            <img className="img" src={n} />
-            <span>{post.author.name}</span>
-            <br />
-            <span>{post.date}</span>
+        <div className="post">
+            <div className="post-title">
+                <img  className="img" src={n}></img>
+                <div className="post-header">
+                    <div className="post-items">Júlio Alcantra</div>
+                    <div className="font-thing">04 Jun 2019</div>
+                </div>
+            </div>
+            <p className="font-regular">{post.content}</p>
+            <hr/>
+            <div className="post-content">
+            <img  className="img" src={n}></img>
+                <div className="post-header bg-gray">
+                    <div className="post-items">Júlio Alcantra</div>
+                    <div className="font-thing">04 Jun 2019</div>
+                </div>
+            </div>
+           
         </div>
     )
 }
