@@ -41,16 +41,28 @@ hr {
     margin: 10px;
 }
 
+.bg-gray p{
+    /* display: flex; */
+    margin: 3px;
+    float: left;
+}
+
+.bg-gray span{
+    margin: 3px;
+    float: left;
+    font-weight: bold;
+}
+
 .post-content {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: stretch;
 }
 
 .font-thing {
     font-size: 0.875rem;
     font-weight: 100i;
-    color: #ddd
+    color:gray;
 }
 
 .font-regular {
